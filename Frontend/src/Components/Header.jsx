@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
-
+import React from 'react';
 const Header = () => {
   return (
      <header>
-  <div className="fixed top-0 left-0 w-full flex items-center justify-between bg-gradient-to-b from-white to-gray-100 p-3 shadow-sm z-50">
+  <div className="fixed top-0 left-0 w-full flex items-center justify-between bg-gradient-to-b from-white to-gray-100 p-2 shadow-sm z-50">
     <div className='flex items-center'>
       <img src="./logo.png" alt="logo" className='w-10 h-10 mr-2' />
       <Link to='/'>
