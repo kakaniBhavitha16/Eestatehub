@@ -35,7 +35,7 @@ const Header = () => {
         </Link>
         <Link to='/profile'>
         {currentUser ? (
-          <img className='rounded-full h-7 w-7 object-cover' src={currentUser.avatar} alt="profile"/>
+          <img className='rounded-full h-8 w-8 object-cover' src={currentUser.avatar} alt="profile"/>
         ): (
         <li className='text-gray-700 font-medium hover:underline cursor-pointer'>Sign In</li>
         )}
